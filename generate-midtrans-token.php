@@ -3,7 +3,7 @@ header('Content-Type: application/json'); // PASTIKAN HEADER ADA DI AWAL
 
 require __DIR__ . '/../vendor/autoload.php'; // Pastikan PHPMailer sudah diinstal via Composer
 
-\Midtrans\Config::$serverKey = 'SB-Mid-server-SYxByD4sFDkQtbT1CfhAGC6n';
+\Midtrans\Config::$serverKey = 'YOUR_SERVER_KEY';
 \Midtrans\Config::$isProduction = false;
 \Midtrans\Config::$isSanitized = true;
 \Midtrans\Config::$is3ds = true;
